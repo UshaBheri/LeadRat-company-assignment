@@ -2,10 +2,10 @@ const seatingArrangement = document.getElementById("seatingArrangement");
 const seatTypeSelect = document.getElementById("seatType");
 const seatCountInput = document.getElementById("seatCount");
 const proceedButton = document.getElementById("proceed");
-const totalAmountDisplay = document.getElementById("totalAmount");
+const seatCountInput = document.getElementById("seatCount");
 
-const rows = 5; // Define the number of rows
-const seatsPerRow = 8; // Define the number of seats per row
+const rows = 8; // Define the number of rows
+const seatsPerRow = 9; // Define the number of seats per row
 
 // Initialize the seating arrangement
 const seats = [];
